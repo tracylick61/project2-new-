@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-image: url(/images/first.png);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background: rgb(0, 0, 0);
+  height: 56vw;
+}
+
+.navigation {
+  margin-left: 15vw;
+  word-spacing: 3vw;
+  position: relative;
+  top: 1.5vw;
+}
+.navigation .navigation__logo {
+  position: relative;
+  height: 2.3vw;
+  top: 1vw;
+  padding-right: 8vw;
+}
+.navigation a {
+  color: rgb(255, 255, 255);
+  font-family: DM Sans;
+  font-weight: 600;
+  font-size: 0.8vw;
+}
+.navigation .navigation__link {
+  text-decoration: none;
+}
+
+.text {
+  margin-left: 15vw;
+  margin-top: 12vw;
+}
+.text h1 {
+  font-family: DM sans;
+  font-size: 6vw;
+  font-weight: 900;
+  color: rgb(255, 252, 252);
+}
+
+.articles {
+  background-image: url(/images/second.png);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  height: 56vw;
+}/*# sourceMappingURL=style.css.map */
